@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": ".venv/bin/mkdocs build --clean",
+    "start": "node server.mjs"
+  }
+}

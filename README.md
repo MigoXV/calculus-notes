@@ -49,6 +49,15 @@
 .venv/bin/mkdocs serve
 ```
 
+也可以先构建静态文件，再用 Node 托管：
+
+```bash
+npm run build
+npm start
+```
+
+默认地址为 `http://127.0.0.1:8080/`。如需换端口，可使用 `PORT=8081 npm start`。
+
 生成静态站点：
 
 ```bash
