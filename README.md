@@ -35,6 +35,28 @@
 
 笔记中包含 LaTeX 公式和少量 Mermaid 图表。推荐使用支持数学公式渲染的 Markdown 编辑器或笔记工具阅读，例如 VS Code 搭配 Markdown Preview Enhanced，或其他支持 MathJax/KaTeX 与 Mermaid 的阅读环境。
 
+## 构建网站
+
+本仓库已配置 MkDocs，可将现有章节笔记直接构建为静态网站。依赖安装在项目虚拟环境中：
+
+```bash
+.venv/bin/python -m pip install -r requirements-mkdocs.txt
+```
+
+本地预览：
+
+```bash
+.venv/bin/mkdocs serve
+```
+
+生成静态站点：
+
+```bash
+.venv/bin/mkdocs build
+```
+
+站点会按 `01` 到 `08` 的正式笔记目录自动生成导航，`data-bin`、`tmp-workspace`、`.venv` 和 `site` 等目录不会进入网站内容。
+
 ## 维护约定
 
 - 新增正式笔记时，优先放入对应的编号章节目录。
@@ -42,4 +64,3 @@
 - 公式统一使用 Markdown 中的 LaTeX 写法，行间公式使用 `$$ ... $$`。
 - 图示流程可继续使用 Mermaid 代码块。
 - README 与面向读者的说明文档使用中文编写。
-

@@ -1,0 +1,60 @@
+site_name: 高等数学笔记
+site_description: 按课程章节整理的高等数学 Markdown 笔记
+site_url: ""
+
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+strict: false
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js
+  - javascripts/katex.js
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css
+  - stylesheets/manas-paper.css
+
+extra:
+  generator: false
+
+exclude_docs: |
+  __pycache__/

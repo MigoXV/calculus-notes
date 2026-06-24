@@ -1,6 +1,7 @@
 data-bin/
 model-bin/
 tmp-workspace/
+site/
 
 .venv/
 __pycache__/
