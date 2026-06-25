@@ -1,0 +1,25 @@
+[project]
+name = "calculus-notes"
+version = "0.1.0"
+description = "按课程章节整理的高等数学 Markdown 笔记与 MkDocs 静态站点"
+authors = [
+    {name = "migo", email = "1695587905@qq.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "mkdocs==1.6.1",
+    "mkdocs-material==9.7.6",
+]
+
+[tool.poetry]
+package-mode = false
+
+[[tool.poetry.source]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

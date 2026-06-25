@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": ".venv/bin/mkdocs build --clean",
+    "build": "poetry run mkdocs build --clean",
+    "serve": "poetry run mkdocs serve",
     "start": "node server.mjs"
   }
 }
