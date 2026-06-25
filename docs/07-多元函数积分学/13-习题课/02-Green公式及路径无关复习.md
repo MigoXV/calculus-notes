@@ -28,7 +28,9 @@ $$
 \end{aligned}
 $$
 
-例1．计算 $\int_{L} \sqrt{x^{2}+y^{2}} d s$ ，其中 $L$ 为曲线 $x^{2}+y^{2}=-2 y$ ．例2。计算 $\left.(\$ \mathrm{M})+\mathrm{y}^{\frac{4}{3}}\right) \mathrm{ds}$ ，其中 $L$ 为星形线 $x^{\frac{2}{3}}+y^{\frac{2}{3}}=a^{\frac{2}{3}}$ 。
+例1．计算 $\int_{L} \sqrt{x^{2}+y^{2}} d s$ ，其中 $L$ 为曲线 $x^{2}+y^{2}=-2 y$ ．
+
+例2。计算 $\left.(\$ \mathrm{M})+\mathrm{y}^{\frac{4}{3}}\right) \mathrm{ds}$ ，其中 $L$ 为星形线 $x^{\frac{2}{3}}+y^{\frac{2}{3}}=a^{\frac{2}{3}}$ 。
 
 例3．计算 $S M)^{2}+y^{2} d s$ ，其中 $L$ 为双纽线的右半支，即 $r=\sqrt{2} a \sqrt{\cos 2 \theta}\left(-\frac{\pi}{4} \leq \theta \leq \frac{\pi}{4}\right)(a>0)$ ．
 
